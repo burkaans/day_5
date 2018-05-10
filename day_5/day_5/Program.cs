@@ -29,6 +29,29 @@ namespace day_5
             Console.WriteLine("That means, my Master is about "+rezultats+" years old.");
             Console.ReadLine();
 
+            Console.WriteLine("Master, gribi uzzinaat rinka diametru un rinka laukumu, vienkaarshi ievadi rinka radiusu cipariem!");
+            double radiuss, diametrs, laukums;
+            string ievade3 = Console.ReadLine();
+            radiuss = Convert.ToInt16(ievade3);
+            diametrs = radiuss * 2;
+            laukums = diametrs * 3.14;
+            Console.WriteLine("Rinkim ar radiusu " + radiuss +" cm, diametrs ir "+diametrs+" cm, bet laukums " +laukums+ " cm2!");
+            Console.ReadLine();
+
+            Console.WriteLine("Ievadiet savu laimigo skaitli");
+            string var1;
+            var1 = Console.ReadLine();
+            string rezultats4 = Funkcija5(var1);
+            Console.WriteLine("jusu laimigais skaitlis ir " + rezultats4);
+            Console.ReadLine();
+
+            Console.ReadLine();
+        }
+        static string Funkcija5(string vards1)
+        {
+            string result = vards1;
+            return result;
+
         }
     }
 }
