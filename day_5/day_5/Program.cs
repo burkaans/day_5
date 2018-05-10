@@ -45,6 +45,34 @@ namespace day_5
             Console.WriteLine("jusu laimigais skaitlis ir " + rezultats4);
             Console.ReadLine();
 
+            Console.WriteLine("Type this:macos programmet");
+            string mainigais2 = Console.ReadLine();
+
+            if (mainigais2 == "macos programmet")
+            {
+                Console.WriteLine("Good Job!");
+            }
+            else
+            {
+                Console.WriteLine("Try again!");
+            }
+            Console.ReadLine();
+
+            Console.WriteLine("Vai gribat sasveicinaties?");
+            string mainigais3 = Console.ReadLine();
+
+            if (mainigais3 == "ja")
+            {
+                Console.WriteLine("Forshi, ka jus sauc?");
+            }
+            else if (mainigais3== "ne")
+            {
+                Console.WriteLine("Zhel gan");
+            }
+            else
+            {
+                Console.WriteLine("Rakstiet: ja vai ne");
+            }
             Console.ReadLine();
         }
         static string Funkcija5(string vards1)
